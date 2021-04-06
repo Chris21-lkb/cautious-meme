@@ -9,13 +9,12 @@ class UserMessage extends Controller
     //
     function getUserMessage(Request $req){
         $req -> validate([
-            'firstName'=>'required | max:10',
-            'lastNmame'=>'required | max:15',
-            'phone'=>'required',
-            'email'=>'required',
-            'message'=>'required'
+            'firstName' => 'required|max:30',
+            'lastName' => 'required|max:30',
+            'phone' => 'required',
+            'email' => 'required',
+            'message' => 'required',
         ]);
-        
-        return "ok boss";
+        return $req -> input();
     }
 }
