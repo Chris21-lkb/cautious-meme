@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\UserMessage;
 
 /*
 |--------------------------------------------------------------------------
@@ -26,3 +27,4 @@ Route::get('contact', function (){
 Route::get('trainers', function (){
     return view('pages.Trainers');
 });
+Route::post('userMessage',[UserMessage::class,'getUserMessage']);

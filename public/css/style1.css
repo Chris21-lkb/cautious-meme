@@ -191,7 +191,7 @@ header{
     border: 1px solid lightsalmon;
     box-shadow: 1px 1px grey;
 }
-.contact-section-contact-formulaire input[type=button]{
+.contact-section-contact-formulaire button{
     display: block;
     position: relative;
     margin-left: auto;
