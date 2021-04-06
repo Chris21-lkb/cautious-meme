@@ -9,8 +9,8 @@
             <ul>
                 <li><a href="#">HOME</a></li>
                 <li><a href="#">PRODUCTS</a></li>
-                <li><a href="#">TRAINERS</a></li>
-                <li><a href="#">ABOUT US</a></li>
+                <li><a href="#">ABOUT</a></li>
+                <li><a href="{{url('contact')}}">CONTACT US</a></li>
             </ul>
         </div>
         <div class="navbar-inner-button">
