@@ -2,6 +2,7 @@
     <div class="navbar-inner">
         <div class="navbar-inner-logo">
             <ul>
+            <h1>TESTING</h1>
                 <li><a id="logo" href="#">LKBGYM</a></li>
             </ul>
         </div>
