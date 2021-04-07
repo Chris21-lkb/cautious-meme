@@ -204,6 +204,37 @@ header{
     color: white;
 }
 
+/*trainer page design */
+
+.trainers-section-contact{
+    margin-right: 40px;
+    margin-left: 40px;
+    margin-top: 90px;
+}
+.trainers_picture{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 50px;
+    
+}
+.trainers_picture img:hover{
+    opacity: 0.6;
+}
+.trainers_picture img{
+    width: 350px;
+    height: 500px;
+}
+.trainer_name{
+    border-top: 2px solid lightsalmon;
+    background-color: grey;
+}
+.trainer_name h3, p{
+    text-align: center;
+    color: lightsalmon;
+    color: black;
+}
+
 /*footer design */
 
 footer{
