@@ -16,7 +16,7 @@ class CreateCoachPicturesTable extends Migration
         Schema::create('coachPictures', function (Blueprint $table) {
             $table->id();
             $table->string('coachName');
-            $table->string('imageName');
+            $table->string('description');
             $table->string('file_path');
             $table->timestamps();
         });

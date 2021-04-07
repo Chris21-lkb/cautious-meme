@@ -11,8 +11,8 @@ class coachController extends Controller
     function uploadPicture(Request $req){
 
         $req->validate([
-            'imageName' => 'required',
             'coachName' => 'required',
+            'description' => 'required',
             'file' => 'required'
         ]);
         if($req -> hasFile('file')){
@@ -21,17 +21,17 @@ class coachController extends Controller
                 'image' => 'mines:jpg,png,jpeg,bmp'
             ]);
 
-            $req -> file -> store('images','public');
+            $req -> file -> store('trainerPictures','public');
 
             $picture = new coachpicture([
                 'coachName' => $req -> get('coachName'),
-                'imageName' => $req -> get('imageName'),
+                'description' => $req -> get('description'),
                 'file_path' => $req -> file -> hashName()
             ]);
 
             $picture -> save();
         }
 
-        return 'Okay boss, everything is okay';
+        return view('pages.upload');
     }
 }
