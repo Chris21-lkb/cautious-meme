@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\coachController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\UserMess;
 
@@ -33,3 +34,4 @@ Route::get('trainers', function (){
 Route::post('userMessage',[UserMess::class,'getUserMessage']);
 
 Route::view('upload','pages.upload');
+Route::post('upload',[coachController::class,'uploadPicture']);
