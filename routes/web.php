@@ -3,6 +3,7 @@
 use App\Http\Controllers\coachController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\UserMess;
+use App\Http\Controllers\CoachInfo;
 
 /*
 |--------------------------------------------------------------------------
@@ -27,11 +28,8 @@ Route::get('contact', function (){
     return view('pages.Contact');
 });
 
-Route::get('trainers', function (){
-    return view('pages.Trainers');
-});
-
 Route::post('userMessage',[UserMess::class,'getUserMessage']);
 
 Route::view('upload','pages.upload');
 Route::post('upload',[coachController::class,'uploadPicture']);
+Route::get('trainers',[CoachInfo::class,'showInfo']);
