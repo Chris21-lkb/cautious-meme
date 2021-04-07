@@ -24,8 +24,8 @@ class UserMess extends Controller
         $newmessage -> email = $req -> email;
         $newmessage -> message = $req -> message;
         $newmessage -> save();
-
-        return "ok boss";
+        
+        return redirect('contact');
 
         
     }

@@ -21,10 +21,15 @@ Route::get('/', function () {
 Route::get('home', function (){
     return view('pages.Home');
 });
+
 Route::get('contact', function (){
     return view('pages.Contact');
 });
+
 Route::get('trainers', function (){
     return view('pages.Trainers');
 });
+
 Route::post('userMessage',[UserMess::class,'getUserMessage']);
+
+Route::view('upload','pages.upload');
