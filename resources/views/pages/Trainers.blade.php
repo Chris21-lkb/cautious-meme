@@ -13,5 +13,9 @@
         </div>
         @endforeach
     </div>
+
+    <div class="trainersPageAdds">
+        <h1>Adds here </h1>
+    </div>
 </div>
 @stop
