@@ -216,18 +216,23 @@ header{
     flex-wrap: wrap;
     justify-content: space-around;
     margin: 50px;
-    
+    width: 940px;;
 }
 .trainers_picture img:hover{
     opacity: 0.6;
 }
 .trainers_picture img{
-    width: 350px;
-    height: 500px;
+    width: 290px;
+    height: 400px;
+    margin-right: 5px;
+}
+.trainers_picture h3{
+
 }
 .trainer_name{
     border-top: 2px solid lightsalmon;
     background-color: grey;
+    margin-top: -100px;
 }
 .trainer_name h3, p{
     text-align: center;
