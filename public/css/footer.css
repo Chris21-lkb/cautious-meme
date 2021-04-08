@@ -1,0 +1,39 @@
+footer{
+    border-top: 1px solid black;
+    padding:10px;
+    background-color: black;
+    letter-spacing: 1px;
+    line-height: 1.6;
+    margin-top: 70px;
+}
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+.footer-content-list{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-content-list ul li{
+    list-style: none;
+    text-align: justify;
+    margin-left: -30px;
+}
+.footer-content-list ul li a{
+    text-decoration: none;
+    color: grey;
+}
+.footer-content-list ul li a:hover{
+    color: white;
+}
+.lists{
+    margin-right: 60px;
+}
+.lists h3{
+    text-align:justify;
+}
+.copyright{
+    color: rgb(179, 178, 178);
+    text-align: center;
+}

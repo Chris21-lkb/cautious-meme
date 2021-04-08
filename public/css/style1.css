@@ -1,63 +1,6 @@
-body{
-    margin: 0px;
-    padding: 0px;
-}
-header{
-    background-image: url('/images/image.jpg');
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 500px;
-}
-.navbar-inner{
-    display: flex;
-    justify-content: space-around;
-    border-bottom: 2px solid white;
-    position: fixed; 
-    top: 0; 
-    width: 100%; 
-    overflow: hidden;
-    background-color: black;
-}
-.navbar-inner-logo ul li{
-    list-style: none;
-}
-.navbar-inner-logo ul{
-    list-style: none;
-}
-.navbar-inner-logo ul a {
-   color: white;
-   text-decoration: none;
-   font-size: 25px;
-}
-.navbar-inner-list ul li{
-    list-style: none;
-    display: inline-block;
-    padding-right: 30px;
-}
-.navbar-inner-list li a{
-    text-decoration: none;
-    font-size: 20px;
-    color: white;
-}
-.navbar-inner-list ul li a:hover{
-    text-decoration: underline;
-    color: lightsalmon;
-}
-.navbar-inner-button ul{
-    list-style: none;
-}
-.navbar-inner-button ul a {
-   color: rgb(253, 249, 249);
-   text-decoration: none;
-   font-size: 20px;
-   border: 1px solid darksalmon;
-   padding: 7px;
-   background-color: darksalmon;
-   border-radius: 10px;
-}
-
 /*section design */
+
+/*contact design */
 
 .contact-section-title{
     margin-bottom: 270px;
@@ -206,6 +149,23 @@ header{
 
 /*trainer page design */
 
+.trainers-section-title{
+    margin-bottom: 270px;
+    margin-top: -270px;
+    background-color: lightslategrey;
+    width: 400px;
+    opacity: 0.6;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+}
+.trainers-section-title h1{
+    text-align: center;
+    color:lightsalmon;
+    font-size: 2.5em;
+    opacity: 1;
+}
+
 .trainers-section-contact{
     display: flex;
     justify-content: space-around;
@@ -255,43 +215,5 @@ header{
 
 /*footer design */
 
-footer{
-    border-top: 1px solid black;
-    padding:10px;
-    background-color: black;
-    letter-spacing: 1px;
-    line-height: 1.6;
-    margin-top: 70px;
-}
-.footer-content{
-    display: flex;
-    justify-content: space-between;
-    color: white;
-}
-.footer-content-list{
-    display: flex;
-    justify-content: space-between;
-}
-.footer-content-list ul li{
-    list-style: none;
-    text-align: justify;
-    margin-left: -30px;
-}
-.footer-content-list ul li a{
-    text-decoration: none;
-    color: grey;
-}
-.footer-content-list ul li a:hover{
-    color: white;
-}
-.lists{
-    margin-right: 60px;
-}
-.lists h3{
-    text-align:justify;
-}
-.copyright{
-    color: rgb(179, 178, 178);
-    text-align: center;
-}
+
 

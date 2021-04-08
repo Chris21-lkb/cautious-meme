@@ -1,0 +1,58 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    background-image: url('/images/image.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+.navbar-inner{
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 2px solid white;
+    position: fixed; 
+    top: 0; 
+    width: 100%; 
+    overflow: hidden;
+    background-color: black;
+}
+.navbar-inner-logo ul li{
+    list-style: none;
+}
+.navbar-inner-logo ul{
+    list-style: none;
+}
+.navbar-inner-logo ul a {
+   color: white;
+   text-decoration: none;
+   font-size: 25px;
+}
+.navbar-inner-list ul li{
+    list-style: none;
+    display: inline-block;
+    padding-right: 30px;
+}
+.navbar-inner-list li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+.navbar-inner-list ul li a:hover{
+    text-decoration: underline;
+    color: lightsalmon;
+}
+.navbar-inner-button ul{
+    list-style: none;
+}
+.navbar-inner-button ul a {
+   color: rgb(253, 249, 249);
+   text-decoration: none;
+   font-size: 20px;
+   border: 1px solid darksalmon;
+   padding: 7px;
+   background-color: darksalmon;
+   border-radius: 10px;
+}
