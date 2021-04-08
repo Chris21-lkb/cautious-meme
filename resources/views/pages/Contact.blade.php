@@ -1,4 +1,4 @@
-@extends('layouts.layout1')
+@extends('layouts.layout')
 @section('content')
 <div class="contact-section-contact">
     <div class="contact-section-title">

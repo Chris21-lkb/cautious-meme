@@ -1,4 +1,4 @@
-@extends('layouts.layout1')
+@extends('layouts.layout')
 @section('content') 
 
 <div class="section-header-text">
@@ -54,7 +54,7 @@
     </div>
 
     <div class="ads">
-        <h2>Setup Your Body With LKBGYM</h2>
+        <h2>Setup Your Body With Us</h2>
     </div>
     <div class="progams-inner">
         <div class="programs">
@@ -84,6 +84,7 @@
     </div>
     <div class="section-trainers">
         <h3>OUR TRAINERS</h3>
+        
     </div>
 </div>
 @stop

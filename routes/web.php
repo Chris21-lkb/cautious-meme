@@ -27,6 +27,7 @@ Route::get('home', function (){
 Route::get('contact', function (){
     return view('pages.Contact');
 });
+Route::view('about','pages.About');
 
 Route::post('userMessage',[UserMess::class,'getUserMessage']);
 

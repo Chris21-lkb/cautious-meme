@@ -6,7 +6,7 @@
 
 .section-header-text{
     margin-top: -270px;
-    margin-bottom: 130px;
+    margin-bottom: 90px;
 }
 .section-header-text-inner h2{
     color: white;
@@ -23,6 +23,7 @@
     text-decoration: none;
     color: white;
     border: 1px solid lightsalmon;
+    padding: 10px;
     background-color: lightsalmon;
 }
 .section-content-container{
@@ -46,6 +47,9 @@
     height: 100px;
     letter-spacing: 1px;
     line-height: 1.6;
+}
+.box-text h3,p{
+    text-align: center;
 }
 .box-link {
     margin-top: 58px;
@@ -77,13 +81,15 @@
     margin-top: -30px;
 }
 .box-picture-text1 p, h3{
-  word-wrap: break-word;
- letter-spacing: 1px;
- line-height: 1.6;
- color: black;
+    word-wrap: break-word;
+    letter-spacing: 1px;
+    line-height: 1.6;
+    color: black;
+    text-align: center;
 }
 .box-picture-link{
     margin-top: 50px;
+    text-align: center;
 }
 .box-picture-link a{  
     text-decoration: none;

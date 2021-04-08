@@ -32,6 +32,10 @@ footer{
 }
 .lists h3{
     text-align:justify;
+    color: white;
+}
+.footer-content-icons h3{
+    color: white;
 }
 .copyright{
     color: rgb(179, 178, 178);

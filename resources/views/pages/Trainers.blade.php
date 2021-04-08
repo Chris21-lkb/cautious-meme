@@ -1,4 +1,4 @@
-@extends('layouts.layout1')
+@extends('layouts.layout')
 @section('content')
 <div class="trainers-page-here">
     <div class="trainers-section-title">
@@ -18,7 +18,7 @@
         </div>
 
         <div class="trainersPageAdds">
-            <h1>Adds here </h1>
+            <h1>Ads here </h1>
         </div>
     </div>
 </div>
