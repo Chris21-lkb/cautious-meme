@@ -216,12 +216,10 @@ header{
     flex-wrap: wrap;
     justify-content: space-around;
     margin: 50px;
-    width: 940px;;
-    border: 1px solid black;
+    width: 940px;
 }
 .trainers-picture-info{
-    border: 1px solid black;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
     width: 270px;
 }
 .trainers_picture img:hover{
@@ -229,19 +227,26 @@ header{
 }
 .trainers_picture img{
     width: 270px;
-    height: 380px;
+    height: 350px;
     margin-right: 5px;
 }
 .trainers_picture h3{
 
 }
 .trainer_name{
-   
+    border: 1px solid lightsalmon;
+    background-color: lightsalmon;
+    margin-top: -3px;
+}
+.trainer_name a{
+    text-decoration: none;
+}
+.trainer_name h3:hover{
+    color: black;transition: 0.5s;
 }
 .trainer_name h3, p{
     text-align: center;
-    color: lightsalmon;
-    color: black;
+    color: white;
 }
 .trainersPageAdds{
     border: 1px solid black;
