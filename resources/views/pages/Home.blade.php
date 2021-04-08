@@ -1,5 +1,12 @@
-@extends('layouts.default')
-@section('content')
+@extends('layouts.layout1')
+@section('content') 
+
+<div class="section-header-text">
+    <div class="section-header-text-inner">
+        <h2>" STEP UP YOUR FITNESS CHALLENGE WITH US "</h2>
+        <a href=""> JOIN US ></a>
+    </div>
+</div>
 <div class=section-content>
     <div class="section-content-container">
         <div class="box">
@@ -7,7 +14,6 @@
                 <h3>MODERN EQUIPMENT</h3>
                 <p>Motivation is what gets you started, Habit is what keeps you going...</p>
             </div>
-            <p></p>
             <div class="box-link">
                 <a href="">-- MORE DETAILS -- </a>
             </div>
