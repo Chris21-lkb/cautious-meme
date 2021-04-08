@@ -9,7 +9,6 @@
                 <h3>{{ $info['coachName']}}</h3>
                 <p>GYM TRAINER</p>
             </div>
-            <h2>{{ $info['description']}}</h2>
         </div>
         @endforeach
     </div>

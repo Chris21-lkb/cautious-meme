@@ -219,12 +219,17 @@ header{
     width: 940px;;
     border: 1px solid black;
 }
+.trainers-picture-info{
+    border: 1px solid black;
+    margin-bottom: 5px;
+    width: 270px;
+}
 .trainers_picture img:hover{
    
 }
 .trainers_picture img{
-    width: 290px;
-    height: 400px;
+    width: 270px;
+    height: 380px;
     margin-right: 5px;
 }
 .trainers_picture h3{
