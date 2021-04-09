@@ -1,0 +1,17 @@
+.about-section-content{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+.about-section-content-picture img{
+    width: 400px;
+    height: 400px;
+}
+.about-section-content-data{
+    width: 700px;
+}
+.about-section-content-data p{
+    color: black;
+    text-align: left;
+    flex-wrap: wrap;
+}

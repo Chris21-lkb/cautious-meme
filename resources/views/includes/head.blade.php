@@ -7,3 +7,4 @@
 <link rel="stylesheet" type="text/css" href="{{asset('/css/contactStyle.css')}}">
 <link rel="stylesheet" type="text/css" href="{{asset('/css/trainerStyle.css')}}">
 <link rel="stylesheet" type="text/css" href="{{asset('/css/homeStyle.css')}}">
+<link rel="stylesheet" type="text/css" href="{{asset('/css/aboutStyle.css')}}">
