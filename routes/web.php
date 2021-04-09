@@ -4,6 +4,7 @@ use App\Http\Controllers\coachController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\UserMess;
 use App\Http\Controllers\CoachInfo;
+use App\Http\Controllers\aboutController;
 
 /*
 |--------------------------------------------------------------------------
@@ -34,3 +35,5 @@ Route::post('userMessage',[UserMess::class,'getUserMessage']);
 Route::view('upload','pages.upload');
 Route::post('upload',[coachController::class,'uploadPicture']);
 Route::get('trainers',[CoachInfo::class,'showInfo']);
+
+Route::post('uploadAbout',[aboutController::class,'insertAbout']);
