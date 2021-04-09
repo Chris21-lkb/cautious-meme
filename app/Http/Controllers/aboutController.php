@@ -50,4 +50,5 @@ class aboutController extends Controller
         $data = About::all();
         return view('pages.About',['infos' => $data]);
     }
+
 }

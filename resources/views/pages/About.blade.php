@@ -8,6 +8,8 @@
         </div>
         <div class="about-section-content-data">
             <h1>{{$data['title']}}</h1>
+            <p>{{$data['intro']}}</p>
+            <h1>{{$data['reason']}}</h1>
             <p>{{$data['content']}}</p>
         </div>
         @endforeach
