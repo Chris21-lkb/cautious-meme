@@ -28,7 +28,7 @@ Route::get('home', function (){
 Route::get('contact', function (){
     return view('pages.Contact');
 });
-Route::view('about','pages.About');
+//Route::view('about','pages.About');
 
 Route::post('userMessage',[UserMess::class,'getUserMessage']);
 
@@ -37,3 +37,4 @@ Route::post('upload',[coachController::class,'uploadPicture']);
 Route::get('trainers',[CoachInfo::class,'showInfo']);
 
 Route::post('uploadAbout',[aboutController::class,'insertAbout']);
+Route::get('about',[aboutController::class,'showAbout']);

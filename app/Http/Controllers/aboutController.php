@@ -35,8 +35,15 @@ class aboutController extends Controller
             ]);
 
             $about -> save();
+
         }
 
+        return redirect('upload');
 
+    }
+
+    function showAbout(){
+        $data = About::all();
+        return view('pages.About',['infos' => $data]);
     }
 }
