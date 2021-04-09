@@ -11,6 +11,8 @@
 <form method="POST" action="uploadAbout" enctype="multipart/form-data">
 @csrf
     <input type="text" name="title" placeholder="Enter title" required>
+    <input type="text" name="intro" placeholder="Enter intro" required>
+    <input type="text" name="reason" placeholder="Enter reason" required>
     <input type="text" name="content" placeholder="Enter content" required>
     <input type="text" name="address" placeholder="Enter address" required>
     <input type="file" name="file" required>

@@ -12,6 +12,8 @@ class aboutController extends Controller
         
         $req->validate([
             'title' => 'required',
+            'intro' => 'required',
+            'reason' => 'required',
             'content' => 'required',
             'address' => 'required',
             'file' => 'required',
@@ -28,6 +30,8 @@ class aboutController extends Controller
 
             $about = new About([
                 'title' => $req -> get('title'),
+                'intro' => $req -> get('intro'),
+                'reason' => $req -> get('reason'),
                 'content' => $req -> get('content'),
                 'address' => $req -> get('address'),
                 'picture_path' => $req -> file -> hashName(),
