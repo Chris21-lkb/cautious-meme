@@ -1,12 +1,12 @@
 <!Doctype html>
 <html>
     <head>
-        @include('includes.head1')
+        @include('includes.head')
     </head>
     <body>
         <div class="container">
             <header>
-                @include('includes.header1')
+                @include('includes.header')
             </header>
             <div id="main" class="row">
                 @yield('content')

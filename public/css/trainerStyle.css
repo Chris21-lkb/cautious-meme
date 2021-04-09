@@ -1,0 +1,65 @@
+/*trainer page design */
+
+.trainers-section-title{
+    margin-bottom: 270px;
+    margin-top: -270px;
+    background-color: lightslategrey;
+    width: 400px;
+    opacity: 0.6;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+}
+.trainers-section-title h1{
+    text-align: center;
+    color:lightsalmon;
+    font-size: 2.5em;
+    opacity: 1;
+}
+
+.trainers-section-contact{
+    display: flex;
+    justify-content: space-around;
+    margin: 25px;
+}
+.trainers_picture{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 50px;
+    width: 940px;
+}
+.trainers-picture-info{
+    margin-bottom: 10px;
+    width: 270px;
+}
+.trainers_picture img:hover{
+   
+}
+.trainers_picture img{
+    width: 270px;
+    height: 350px;
+    margin-right: 5px;
+}
+.trainers_picture h3{
+
+}
+.trainer_name{
+    border: 1px solid lightsalmon;
+    background-color: lightsalmon;
+    margin-top: -3px;
+}
+.trainer_name a{
+    text-decoration: none;
+}
+.trainer_name h3:hover{
+    color: black;transition: 0.5s;
+}
+.trainer_name h3, p{
+    text-align: center;
+    color: white;
+}
+.trainersPageAdds{
+    border: 1px solid black;
+    width: 200px;
+}

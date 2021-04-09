@@ -1,16 +1,17 @@
-<div class="navbar">
+<div class="header-content">
     <div class="navbar-inner">
         <div class="navbar-inner-logo">
             <ul>
-                <li><a id="logo" href="#">LKBGYM</a></li>
+                <li><a id="logo" href="#"><span style='color: lightsalmon;'>LKB</span>FITNESS</a></li>
             </ul>
         </div>
         <div class="navbar-inner-list">
             <ul>
-                <li><a href="#">HOME</a></li>
-                <li><a href="#">PRODUCTS</a></li>
-                <li><a href="#">ABOUT</a></li>
-                <li><a href="{{url('contact')}}">CONTACT US</a></li>
+                <li><a href="{{url('home')}}" id="home">HOME</a></li>
+                <li><a href="{{url('products')}}" id="products">WORKOUT</a></li>
+                <li><a href="{{url('trainers')}}" id="trainers">TRAINERS</a></li>
+                <li><a href="{{url('about')}}" id="about">ABOUT</a></li>
+                <li><a href="{{url('contact')}}" id="about">CONTACT US</a></li>
             </ul>
         </div>
         <div class="navbar-inner-button">
@@ -18,11 +19,5 @@
                 <li><a href="">+86-132-508-31-113</a></li>
             </ul>
         </div>
-    </div>
-</div>
-<div class="header-text">
-    <div class="header-text-inner">
-       <h2>STEP UP YOUR FITNESS CHALLENGE WITH US</h2>
-       <a href=""> JOIN US ></a>
     </div>
 </div>
